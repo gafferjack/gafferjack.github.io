@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: teal;
+}
+li{
+font-family: 'Bitter', serif;
+text-align: center;
+padding: 10px 20px;
+list-style-type: none;
+border-style: solid;
+border-color: black;
+color: white;
+width: 33%;
+float: left;
+display: block;
+}
+img{
+  height:200px;
+  width:auto;
+  margin:0 auto;
+  display: block;
+}
+section {
+  clear:both;
+}
+
+#Welcome{
+  color: white;
+}
+.land{
+  color: maroon;
+font-style: italic;
+
+}
+.water{
+  color: orange;
+font-weight: bold;
+}
+a::first-letter, li::first-letter{
+  font-size: 24px
+}
+a{
+  display: block;
+}
+#Organic{
+  color: white;
+}
